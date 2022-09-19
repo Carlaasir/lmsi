@@ -4,11 +4,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Estructura de página HTML</title>
+	<style>
+	     /* En esta sección solo se escribe código CSS , que solo aplicará a esta página */
+
+	     #cap1 { /*#cap1 selecciona el elemento con id='cap1'*/
+	     	color: blue; /*indica color azul*/
+	     	text-decoration: underline; /*indica subrayado*/
+	     }
+
+	     #cap2 {
+	     	color: red;
+	     	text-decoration: underline;
+	     }
+
+	     .pc1 { /* .pc2 selecciona elementos con class='pc1' */
+	     	text-indent: 2rem;
+	     }
+	     .pc2 {
+	     	font-style: italic;
+	     }
+
+	     p {
+	     	color: green;
+	     }
+
+	</style>
 </head>
 <body>
-	<h1>Título 1</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in nam placeat perferendis velit corporis dolores ipsa voluptate nulla soluta, porro modi aut provident quas consequuntur possimus mollitia praesentium dignissimos!</p>
+
+	<h1 id="cap1">Título 1</h1>
+	<p class="pc1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in nam placeat perferendis velit corporis dolores ipsa voluptate nulla soluta, porro modi aut provident quas consequuntur possimus mollitia praesentium dignissimos!</p>
 	<h2>Título 1.1</h2>
-	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus odio sint harum libero, quos quas veritatis sapiente amet optio enim numquam officiis sequi fuga eos repellendus quam nisi unde?</p>
+	<p class="pc1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus odio sint harum libero, quos quas veritatis sapiente amet optio enim numquam officiis sequi fuga eos repellendus quam nisi unde?</p>
+	<h1 id="cap2">Título 2</h1>
+	<p class="pc2">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur tenetur iure sequi doloribus temporibus, laboriosam modi hic sint et rerum libero quas officiis quam veritatis dolor deserunt nisi veniam adipisci!</p>
+	<h2>Título 2.1</h2>
+	<p class="pc2">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Sequi voluptate molestias nam magni nostrum assumenda ullam fuga at animi alias, in laborum molestiae aut, totam suscipit similique doloremque modi odio.</p>
 </body>
 </html>
